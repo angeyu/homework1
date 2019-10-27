@@ -1,5 +1,5 @@
 # homework1
-https://angeyu.homework1.github.io/
+https://angeyu.github.io/homework1
 
 1) index page
 2) portfolio page
