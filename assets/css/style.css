@@ -1,0 +1,138 @@
+/*   * Teal color (used for headings and backgrounds): `#4aaaa5`
+   * Regular font color (used for paragraphs and all text besides the headings): `#777777`
+   * Main header background color: `#ffffff`
+   * Main header border color: `#cccccc`
+   * Footer background color: `#666666`
+   * Main content background color: `#ffffff`
+   * Main content border color: `#dddddd`
+
+* Fonts:
+   * For heading fonts use `font-family: 'Georgia', Times, 'Times New Roman', serif;`
+   * For all other fonts use `'Arial', 'Helvetica Neue', Helvetica, sans-serif;`
+Look into these concepts: `float`, `padding`, `margin`, `display`, `overflow`, `clear` and `text-align`.
+
+   */
+
+
+*{ 
+    box-sizing: border-box;
+    color: #777777;
+    font-size: 14px;
+    font-family: Arial, Helvetica,sans-serif;
+    overflow: auto;
+    
+}
+
+nav{
+    
+    background-color: #ffffff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 8px;
+    border-bottom: 4px solid gold;  
+
+}
+
+h1{
+    float: left;
+    margin: 5px 20%;
+    background-color: #4aaaa5;
+    border: 4px;
+    color: #ffffff;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    border: palegoldenrod;
+}
+
+h3{
+    float: right;
+    margin: 5px 20%;
+}
+
+.content{
+    float: left;
+    text-align: left;
+    background-color:#ffffff;
+    border-radius: 15px;
+    padding: 10px;
+    width: 960px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 100px;
+    margin-bottom: 5%;
+
+}
+
+h2{
+    font-size: 20px; 
+    color: #4aaaa5;
+}
+
+
+
+footer {
+    color: #ffffff;
+    clear: both;
+    text-align: center;
+    border-top: 8px solid teal;
+    background-color: #666666;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px;
+    border-radius: 0;
+}
+
+
+input[type=text] {
+    width: 60%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+
+  #message {
+      width: 100%;
+      height: 150px;
+
+  }
+  
+  button{
+      padding: 5px;
+      background-color: teal;
+      color: #ffffff;
+  }
+
+  .portfolio
+   {
+    float: left;
+    width: 800px;
+    padding: 10px;
+  }
+
+img {
+    float: left;
+    margin: 10px;
+}
+.pic {
+    float: left;
+    position: relative;
+
+}
+.textblock {
+    float: left;
+    position: absolute;
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 293px;
+    top: 80px;
+    left: 10px;
+  }
